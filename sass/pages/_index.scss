@@ -1,18 +1,71 @@
+@use '../abstracts/abstracts' as *;
+
 header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
     .header-content {
         display: flex;
         flex-direction: row;
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 20px;
+        
+        img {
+            width: 50px;
+            height: 50px;
+        }
+
+        h1 {
+            font-size: 25px;
+        }
     }
 
     .header-nav {
-        display: none;
+        display: flex;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        gap:5px;
 
-        @include breakpoint(desktop) {
-            display: flex;
-            flex-direction: row;
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+
+            &:hover {
+                color: rgb(63, 63, 63);
+                text-decoration: underline;
+            }
         }
     }
+}
+
+main {
+    margin-bottom: 40px;
+
+    section {
+        img {
+            width: 200px;
+        }
+    }
+}
+
+section {
+    margin-bottom: 40px;
+     p {
+        text-align: justify;
+        line-height: 150%;
+        margin-bottom: 40px;
+    }
+    
+    a {
+        color:black;
+
+        &:hover {
+            color: rgb(63, 63, 63);
+        }
+    }
+
+
 }
