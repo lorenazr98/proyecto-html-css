@@ -1,0 +1,15 @@
+@use '../abstracts/abstracts' as *;
+
+footer {
+    margin-left: 40px;
+
+    @include breakpoint(desktop) {
+        text-align: center;
+    }
+    
+    p {
+        a{
+            color: black;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+@use '../abstracts/abstracts' as *;
+
+.contactoSection {
+    
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        max-width: 60%;
+    }
+
+    iframe {
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+}
+
+.formContacto {
+    p {
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    input {
+        margin-top: 10px;
+        font-family: $secondary-font;
+        border: 1px solid black;
+        height: 20px;
+    }
+
+    textarea {
+        margin-top: 10px;
+        font-family: $secondary-font;
+        border: 1px solid black;
+    }
+
+    button {
+        @include button();
+    }
+}
