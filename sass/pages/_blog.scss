@@ -1,6 +1,11 @@
 @use '../abstracts/abstracts' as *;
 
 .blogSection {
+    background-color: rgb(255, 255, 255);
+    padding: 2rem 2rem;
+    border-radius: 25px;
+    margin-right: 40px;
+    margin-bottom: 80px;
 
     li {
         margin-bottom: 20px;
@@ -14,5 +19,18 @@
             }
         }
     }
-    
+
+    p {
+        text-align: justify;
+
+        @include breakpoint(desktop) {
+            max-width: 50%;
+        }
+    }
+}
+
+.articleOl {
+    @include breakpoint(desktop) {
+        max-width: 50%;
+    }
 }

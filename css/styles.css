@@ -8,6 +8,11 @@ main {
 }
 main .mainSection {
   margin-bottom: 60px;
+  background-color: rgb(255, 255, 255);
+  padding: 2rem 2rem;
+  border-radius: 25px;
+  margin-right: 40px;
+  text-align: center;
 }
 @media (min-width: 1200px) {
   main .mainSection {
@@ -22,7 +27,7 @@ main .mainSection p {
   text-align: justify;
   line-height: 150%;
   margin-bottom: 40px;
-  max-width: 90%;
+  max-width: 100%;
 }
 @media (min-width: 1200px) {
   main .mainSection p {
@@ -41,6 +46,11 @@ main .mainSection img {
 .indexSection {
   margin-bottom: 40px;
   margin-left: 40px;
+  background-color: rgb(255, 255, 255);
+  padding: 2rem 2rem;
+  border-radius: 25px;
+  margin-right: 40px;
+  text-align: center;
 }
 @media (min-width: 1200px) {
   .indexSection {
@@ -54,14 +64,11 @@ main .mainSection img {
     border-radius: 25px;
   }
 }
-.indexSection h3 {
-  max-width: 90%;
-}
 .indexSection p {
   text-align: justify;
   line-height: 150%;
   margin-bottom: 40px;
-  max-width: 90%;
+  max-width: 100%;
 }
 @media (min-width: 1200px) {
   .indexSection p {
@@ -88,6 +95,13 @@ body h3 {
   font-size: 20px;
 }
 
+.cursosSection {
+  background-color: rgb(255, 255, 255);
+  padding: 2rem 2rem;
+  border-radius: 25px;
+  margin-right: 40px;
+  margin-bottom: 80px;
+}
 .cursosSection li {
   margin-bottom: 20px;
 }
@@ -97,6 +111,22 @@ body h3 {
 }
 .cursosSection li a:hover {
   text-decoration: underline;
+}
+
+article {
+  background-color: rgb(255, 255, 255);
+  padding: 2rem 2rem;
+  border-radius: 25px;
+  margin-right: 40px;
+  margin-bottom: 80px;
+}
+article p {
+  text-align: justify;
+}
+@media (min-width: 1200px) {
+  article p {
+    max-width: 50%;
+  }
 }
 
 .quienes-somos .portada-quienes-somos {
@@ -129,10 +159,13 @@ body h3 {
 .quienes-somos h4 {
   margin-top: 40px;
 }
+.quienes-somos h3 {
+  font-size: 25px;
+}
 @media (min-width: 1200px) {
   .quienes-somos h3 {
     font-size: 27px;
-    margin-bottom: 0;
+    margin-bottom: 30px;
   }
 }
 @media (min-width: 1200px) {
@@ -142,6 +175,13 @@ body h3 {
     margin-bottom: 30px;
   }
 }
+.quienes-somos .headerQuienesSomos {
+  background-color: rgb(255, 255, 255);
+  padding: 2rem 2rem;
+  border-radius: 25px;
+  margin-right: 40px;
+  margin-bottom: 80px;
+}
 @media (min-width: 1200px) {
   .quienes-somos .headerQuienesSomos {
     display: flex;
@@ -149,18 +189,38 @@ body h3 {
     margin-bottom: 100px;
     gap: 40px;
     align-items: center;
+    max-width: 50%;
   }
   .quienes-somos .headerQuienesSomos p {
-    max-width: 30%;
+    max-width: 100%;
   }
+}
+.quienes-somos .miembrosContainer {
+  background-color: rgb(255, 255, 255);
+  padding: 2rem 2rem;
+  border-radius: 25px;
+  margin-right: 40px;
+}
+.quienes-somos .miembrosContainer img {
+  max-width: 100%;
 }
 @media (min-width: 1200px) {
   .quienes-somos .miembrosContainer {
     display: flex;
     flex-direction: row;
   }
+  .quienes-somos .miembrosContainer h4 {
+    font-size: 18px;
+  }
 }
 
+.blogSection {
+  background-color: rgb(255, 255, 255);
+  padding: 2rem 2rem;
+  border-radius: 25px;
+  margin-right: 40px;
+  margin-bottom: 80px;
+}
 .blogSection li {
   margin-bottom: 20px;
 }
@@ -171,7 +231,28 @@ body h3 {
 .blogSection li a:hover {
   text-decoration: underline;
 }
+.blogSection p {
+  text-align: justify;
+}
+@media (min-width: 1200px) {
+  .blogSection p {
+    max-width: 50%;
+  }
+}
 
+@media (min-width: 1200px) {
+  .articleOl {
+    max-width: 50%;
+  }
+}
+
+.formRegistro {
+  background-color: rgb(255, 255, 255);
+  padding: 2rem 2rem;
+  border-radius: 25px;
+  margin-right: 40px;
+  margin-bottom: 80px;
+}
 .formRegistro p {
   font-weight: 600;
   margin-bottom: 30px;
@@ -180,6 +261,7 @@ body h3 {
   margin-top: 10px;
   font-family: "Montserrat", sans-serif;
   border: 1px solid black;
+  max-width: 100%;
 }
 .formRegistro textarea {
   margin-top: 10px;
@@ -201,6 +283,13 @@ body h3 {
   color: black;
 }
 
+.formLogin {
+  background-color: rgb(255, 255, 255);
+  padding: 2rem 2rem;
+  border-radius: 25px;
+  margin-right: 40px;
+  margin-bottom: 80px;
+}
 .formLogin p {
   font-weight: 600;
   margin-bottom: 30px;
@@ -231,6 +320,13 @@ body h3 {
   color: black;
 }
 
+.contactoSection {
+  background-color: rgb(255, 255, 255);
+  padding: 2rem 2rem;
+  border-radius: 25px;
+  margin-right: 40px;
+  margin-bottom: 80px;
+}
 .contactoSection ul {
   display: flex;
   flex-direction: column;
@@ -317,7 +413,7 @@ header .header-nav a:hover {
 }
 
 footer {
-  margin-left: 40px;
+  text-align: center;
 }
 @media (min-width: 1200px) {
   footer {

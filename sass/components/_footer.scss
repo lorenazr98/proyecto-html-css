@@ -1,7 +1,7 @@
 @use '../abstracts/abstracts' as *;
 
 footer {
-    margin-left: 40px;
+    text-align: center;
 
     @include breakpoint(desktop) {
         text-align: center;

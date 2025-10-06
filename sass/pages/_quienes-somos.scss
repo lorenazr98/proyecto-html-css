@@ -33,9 +33,11 @@
     }
 
     h3 {
+        font-size: 25px;
+
         @include breakpoint(desktop){
             font-size: 27px;
-            margin-bottom: 0;
+            margin-bottom: 30px;
         }
     }
 
@@ -49,23 +51,43 @@
     }
 
     .headerQuienesSomos {
+        background-color: rgb(255, 255, 255);
+        padding: 2rem 2rem;
+        border-radius: 25px;
+        margin-right: 40px;
+        margin-bottom: 80px;
+
         @include breakpoint(desktop){
             display: flex;
             flex-direction: row;
             margin-bottom: 100px;
             gap: 40px;
             align-items: center;
+            max-width: 50%;
 
             p {
-                max-width: 30%;
+                max-width: 100%;
             }
         }
     }
 
     .miembrosContainer {
+        background-color: rgb(255, 255, 255);
+        padding: 2rem 2rem;
+        border-radius: 25px;
+        margin-right: 40px;
+
+        img {
+            max-width: 100%;
+        }
+
         @include breakpoint(desktop) {
             display: flex;
             flex-direction: row;
+
+            h4 {
+                font-size: 18px;
+            }
         }
     }
 }
